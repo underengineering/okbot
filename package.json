@@ -1,0 +1,29 @@
+{
+    "name": "okbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && node dist/index.js",
+        "dev": "nodemon --watch src src/index.ts | pino-pretty"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@mikro-orm/cli": "^6.3.13",
+        "@mikro-orm/reflection": "^6.3.13",
+        "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+        "nodemon": "^3.1.7",
+        "pino-pretty": "^11.2.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.2"
+    },
+    "dependencies": {
+        "@mikro-orm/core": "^6.3.13",
+        "@mikro-orm/postgresql": "^6.3.13",
+        "dotenv": "^16.4.5",
+        "pino": "^9.4.0",
+        "telegraf": "^4.16.3"
+    }
+}
