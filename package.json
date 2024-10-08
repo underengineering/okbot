@@ -5,7 +5,12 @@
     "main": "index.js",
     "scripts": {
         "start": "tsc && node dist/index.js",
-        "dev": "nodemon --watch src src/index.ts | pino-pretty"
+        "dev": "nodemon --watch src src/index.ts | pino-pretty",
+        "migration:up": "mikro-orm migration:up",
+        "migration:down": "mikro-orm migration:down",
+        "migration:list": "mikro-orm migration:list",
+        "migration:check": "mikro-orm migration:check",
+        "migration:pending": "mikro-orm migration:pending"
     },
     "keywords": [],
     "author": "",
