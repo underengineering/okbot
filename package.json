@@ -12,6 +12,7 @@
     "license": "ISC",
     "devDependencies": {
         "@mikro-orm/cli": "^6.3.13",
+        "@mikro-orm/migrations": "^6.3.13",
         "@mikro-orm/reflection": "^6.3.13",
         "@trivago/prettier-plugin-sort-imports": "^4.3.0",
         "nodemon": "^3.1.7",
